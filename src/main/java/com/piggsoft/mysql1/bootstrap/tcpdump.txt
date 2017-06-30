@@ -1,0 +1,168 @@
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=3 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=3 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=5 and env_id=3 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select env_id,name from env where env_id=3
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=4 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=4 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=5 and env_id=4 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select env_id,name from env where env_id=4
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=5 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=5 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=5 and env_id=5 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select env_id,name from env where env_id=5
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=6 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=6 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=5 and env_id=6 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select env_id,name from env where env_id=6
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=7 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=7 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=5 and env_id=7 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select env_id,name from env where env_id=7       I: @
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=8 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=8 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=5 and env_id=8 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select env_id,name from env where env_id=8
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=5
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=9 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=5 and env_id=10 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=1 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=2 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=2 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=6 and env_id=2 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=6
+SET autocommit=1
+select env_id,name from env where env_id=2
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=6
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=3 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=3 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=6 and env_id=3 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=6
+SET autocommit=1
+select env_id,name from env where env_id=3
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=6
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=4 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=4 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=6 and env_id=4 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=6
+SET autocommit=1
+select env_id,name from env where env_id=4
+SET autocommit=0
+select 1
+SET autocommit=0
+SELECT USER()
+select 1
+SELECT USER()
+SELECT USER()
+SELECT @@session.tx_isolation
+SELECT USER()
+SELECT @@session.tx_isolation
+SET SESSION TRANSACTION ISOLATION LEVEL SERIALIZABLE
+SET SESSION TRANSACTION ISOLATION LEVEL SERIALIZABLE
+SELECT USER()
+SELECT USER()
+SELECT USER()
+SELECT USER()
+select @@session.tx_read_only
+select @@session.tx_read_only    id, trade_no, total_amount, discountable_amount, undiscountable_amount, pay_platform,  pay_type, subject, body, trade_status, business_url, business_order_no, expired_time,  pay_url, notify_url, sts, trade_create, trade_finish, wxpayid, pay_to, return_url from TD_PAY_ORDER    WHERE (  trade_create >= '2017-06-30 12:36:56.339'    and trade_status = '1' )    id, trade_no, total_amount, discountable_amount, undiscountable_amount, pay_platform,  pay_type, subject, body, trade_status, business_url, business_order_no, expired_time,  pay_url, notify_url, sts, trade_create, trade_finish, wxpayid, pay_to, return_url from TD_PAY_ORDER    WHERE (  trade_create >= '2017-06-30 12:36:56.34'    and trade_status = '1' )
+SELECT USER()
+SELECT USER()
+SELECT USER()
+SELECT USER()
+SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+SELECT USER()
+SELECT USER()
+select 1
+select 1
+SET autocommit=1
+SET autocommit=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=6
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=5 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=5 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=6 and env_id=5 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=6
+SET autocommit=1
+select env_id,name from env where env_id=5
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=6
+SET autocommit=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=6 and status=1
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=6 and version='1_0_0_0' and status=1
+select count(*) from config where app_id=6 and env_id=6 and version='1_0_0_0' and status=1
+SET autocommit=0
+select update_time,description,name,create_time,app_id,emails from app where app_id=6
+SET autocommit=1
+select env_id,name from env where env_id=6
+SET autocommit=0!
+select update_time,description,name,create_time,app_id,emails from app where app_id=6!
+SET autocommit=1!
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=7 and status=1!
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=7 and version='1_0_0_0' and status=1!
+select count(*) from config where app_id=6 and env_id=7 and version='1_0_0_0' and status=1!
+SET autocommit=0!
+select update_time,description,name,create_time,app_id,emails from app where app_id=6!
+SET autocommit=1!
+select env_id,name from env where env_id=7!
+SET autocommit=0$
+select update_time,description,name,create_time,app_id,emails from app where app_id=6$
+SET autocommit=1$
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=8 and status=1$
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=8 and version='1_0_0_0' and status=1$
+select count(*) from config where app_id=6 and env_id=8 and version='1_0_0_0' and status=1$
+SET autocommit=0$
+select update_time,description,name,create_time,app_id,emails from app where app_id=6$
+SET autocommit=1$ UY j
+select env_id,name from env where env_id=8$
+SET autocommit=0(
+select update_time,description,name,create_time,app_id,emails from app where app_id=6(
+SET autocommit=1(
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=9 and status=1(
+select config_id,update_time,status,env_id,name,value,create_time,app_id,type,version from config where app_id=6 and env_id=10 and status=1(
